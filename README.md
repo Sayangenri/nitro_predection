@@ -1,4 +1,4 @@
-# 🇵🇹 Portugal 2026 World Cup Prediction Market
+# NoLoop Market
 
 A binary prediction market built with **Nitrolite SDK** and **ERC-7824 state channels** asking: **"Will Portugal win the 2026 World Cup?"**
 

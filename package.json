@@ -1,0 +1,76 @@
+{
+  "name": "portugal-2026-prediction-market-nitrolite",
+  "version": "1.0.0",
+  "description": "Binary prediction market for Portugal 2026 World Cup using Nitrolite SDK and ERC-7824",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node --esm src/index.ts",
+    "dev:cli": "ts-node --esm src/cli.ts",
+    "simple-start": "ts-node --esm src/simple-start.ts",
+    "demo": "ts-node --esm src/complete-working-demo.ts",
+    "yellow": "ts-node --esm src/yellow-prediction-market.ts",
+    "broker": "ts-node --esm src/yellow-broker-integration.ts",
+    "yellow-demo": "ts-node --esm src/yellow-demo-integration.ts",
+    "yellow-sandbox": "ts-node --esm src/yellow-sandbox-integration.ts",
+    "clearnode": "ts-node --esm src/yellow-clearnode-integration.ts",
+    "test-clearnode": "ts-node --esm src/test-clearnode.ts",
+    "clearnode-prod": "ts-node --esm src/clearnode-production.ts",
+    "sepolia-real": "ts-node --esm src/real-clearnode-sepolia.ts",
+    "p2p-yellow": "ts-node --esm src/real-p2p-yellow-trading.ts",
+    "real-brokers": "ts-node --esm src/real-yellow-broker-trading.ts",
+    "real-fix": "ts-node --esm src/real-yellow-fix.ts",
+    "real-p2p": "ts-node --esm src/real-nitrolite-p2p.ts",
+    "demo-p2p": "ts-node --esm src/working-p2p-demo.ts",
+    "proper-p2p": "ts-node --esm src/proper-nitrolite-p2p.ts",
+    "actual-p2p": "ts-node --esm src/actual-yellow-p2p.ts",
+    "workflow": "ts-node --esm src/complete-workflow-explanation.ts",
+    "test": "echo \"Tests coming soon...\"",
+    "lint": "echo \"Linting setup needed...\"",
+    "clean": "rm -rf dist",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "prediction-market",
+    "nitrolite",
+    "erc-7824",
+    "state-channels",
+    "lmsr",
+    "portugal",
+    "world-cup"
+  ],
+  "author": "Portugal 2026 Prediction Market Team",
+  "license": "MIT",
+  "dependencies": {
+    "@erc7824/nitrolite": "^0.1.0",
+    "dotenv": "^16.6.1",
+    "ethers": "^6.10.0",
+    "viem": "^2.0.0",
+    "ws": "^8.16.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/ws": "^8.5.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist/**/*",
+    "src/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/portugal-2026-prediction-market"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/portugal-2026-prediction-market/issues"
+  },
+  "homepage": "https://github.com/your-username/portugal-2026-prediction-market#readme"
+}
